@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SAP_TS,,,,2023-04-26 12:31:23,2023-04-26 12:31:25,1.757s,FAILED
+,,,,,,,
+Test Cases/SAP_Login,,,,2023-04-26 12:31:23,2023-04-26 12:31:24,0.572s,FAILED
+"openBrowser("""")",,,,2023-04-26 12:31:24,2023-04-26 12:31:24,0.226s,FAILED
+,,,,,,,
+Test Cases/SAP_CreateSalesOrder,,,,2023-04-26 12:31:24,2023-04-26 12:31:24,0.430s,FAILED
+enableSmartWait(),,,,2023-04-26 12:31:24,2023-04-26 12:31:24,0.018s,PASSED
+"setText(findTestObject(""Object Repository/Page_Trial Center/input_All_search""), ""manage sales order"")",,,,2023-04-26 12:31:24,2023-04-26 12:31:24,0.134s,FAILED
+,,,,,,,
+Test Cases/SAP_SearchSalesOrder,,,,2023-04-26 12:31:24,2023-04-26 12:31:25,0.323s,FAILED
+"setText(findTestObject(""Object Repository/Page_Manage Sales Orders/input_Sales Order_cus.sd.salesorders.manage_6cf20f""), Sales_Order)",,,,2023-04-26 12:31:25,2023-04-26 12:31:25,0.145s,FAILED

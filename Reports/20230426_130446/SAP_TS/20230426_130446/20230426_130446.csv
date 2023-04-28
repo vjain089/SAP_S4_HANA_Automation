@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SAP_TS,Chrome 112.0.0.0,,,2023-04-26 13:04:59,2023-04-26 13:08:20,3m - 21.106s,FAILED
+,,,,,,,
+Test Cases/SAP_Login,Chrome 112.0.0.0,,,2023-04-26 13:04:59,2023-04-26 13:07:04,2m - 4.923s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-26 13:05:00,2023-04-26 13:05:06,6.552s,PASSED
+"navigateToUrl(""https://cloudtrials.cfapps.eu10-004.hana.ondemand.com/public/access-trial/53cdcb45-79d8-4b1d-b610-da6f46c345bc?t=S4HANA_CLOUD"")",Chrome 112.0.0.0,,,2023-04-26 13:05:06,2023-04-26 13:05:10,4.079s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-26 13:05:10,2023-04-26 13:05:15,4.984s,PASSED
+"setText(findTestObject(""Object Repository/Page_SAP Trial Log On/input_E-Mail or User Name_j_username""), ""vaibhav.jain@katalon.com"")",Chrome 112.0.0.0,,,2023-04-26 13:05:15,2023-04-26 13:05:16,1.107s,PASSED
+"click(findTestObject(""Object Repository/Page_SAP Trial Log On/div_Continue""))",Chrome 112.0.0.0,,,2023-04-26 13:05:16,2023-04-26 13:05:23,6.246s,PASSED
+delay(40),Chrome 112.0.0.0,,,2023-04-26 13:05:23,2023-04-26 13:06:03,40.018s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_SAP Universal ID/input_com_password""), ""icP23tTPdjsOed6Z/XwIKg=="")",Chrome 112.0.0.0,,,2023-04-26 13:06:03,2023-04-26 13:06:03,0.703s,PASSED
+"click(findTestObject(""Object Repository/Page_SAP Universal ID/button_Sign in""))",Chrome 112.0.0.0,,,2023-04-26 13:06:03,2023-04-26 13:06:04,0.866s,PASSED
+delay(60),Chrome 112.0.0.0,,,2023-04-26 13:06:04,2023-04-26 13:07:04,1m - 0.026s,PASSED
+,,,,,,,
+Test Cases/SAP_CreateSalesOrder,Chrome 112.0.0.0,,,2023-04-26 13:07:04,2023-04-26 13:07:54,50.279s,PASSED
+enableSmartWait(),Chrome 112.0.0.0,,,2023-04-26 13:07:04,2023-04-26 13:07:04,0.012s,PASSED
+"setText(findTestObject(""Object Repository/Page_Trial Center/input_All_search""), ""manage sales order"")",Chrome 112.0.0.0,,,2023-04-26 13:07:04,2023-04-26 13:07:06,1.101s,PASSED
+"click(findTestObject(""Object Repository/Page_Trial Center/b_Manage Sales Order""))",Chrome 112.0.0.0,,,2023-04-26 13:07:06,2023-04-26 13:07:18,12.439s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Sales Orders/span_Create""))",Chrome 112.0.0.0,,,2023-04-26 13:07:18,2023-04-26 13:07:27,8.729s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Sales Orders/div_Create Sales Order VA01""))",Chrome 112.0.0.0,,,2023-04-26 13:07:27,2023-04-26 13:07:27,0.793s,PASSED
+"setText(findTestObject(""Object Repository/Page_Create Sales Documents/input_O_InputField""), ""OR"")",Chrome 112.0.0.0,,,2023-04-26 13:07:27,2023-04-26 13:07:33,5.933s,PASSED
+"click(findTestObject(""Object Repository/Page_Create Sales Documents/div_ContinueEmphasized""))",Chrome 112.0.0.0,,,2023-04-26 13:07:33,2023-04-26 13:07:39,5.306s,PASSED
+"setText(findTestObject(""Object Repository/Page_Create Standard Order Overview/input_S_InputField""), ""17100007"")",Chrome 112.0.0.0,,,2023-04-26 13:07:39,2023-04-26 13:07:40,1.046s,PASSED
+"click(findTestObject(""Object Repository/Page_Create Standard Order Overview/span_17100007""))",Chrome 112.0.0.0,,,2023-04-26 13:07:40,2023-04-26 13:07:41,1.187s,PASSED
+"setText(findTestObject(""Object Repository/Page_Create Standard Order Overview/input_C_InputField""), ""TEST"")",Chrome 112.0.0.0,,,2023-04-26 13:07:41,2023-04-26 13:07:42,0.583s,PASSED
+"click(findTestObject(""Object Repository/Page_Create Standard Order Overview/div_Standard OrderNet ValueSold-to PartyShi_75e7b7""))",Chrome 112.0.0.0,,,2023-04-26 13:07:42,2023-04-26 13:07:42,0.596s,PASSED
+"setText(findTestObject(""Object Repository/Page_Create Standard Order Overview/input_P_InputField""), ""0004"")",Chrome 112.0.0.0,,,2023-04-26 13:07:42,2023-04-26 13:07:42,0.379s,PASSED
+"setText(findTestObject(""Object Repository/Page_Create Standard Order Overview/input_I_InputField""), ""EXW"")",Chrome 112.0.0.0,,,2023-04-26 13:07:42,2023-04-26 13:07:43,0.442s,PASSED
+"sendKeys(findTestObject(""Page_Create Standard Order Overview/input_I_InputField_1""), Keys.chord(""Palo Alto"", ENTER))",Chrome 112.0.0.0,,,2023-04-26 13:07:43,2023-04-26 13:07:43,0.450s,PASSED
+"sendKeys(findTestObject(""Page_Create Standard Order Overview/input_Overall Status_InputField""), Keys.chord(""MZ-FG-26XR1"", ENTER))",Chrome 112.0.0.0,,,2023-04-26 13:07:43,2023-04-26 13:07:45,1.635s,PASSED
+"setText(findTestObject(""Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1""), Keys.chord(""10"", ENTER))",Chrome 112.0.0.0,,,2023-04-26 13:07:45,2023-04-26 13:07:46,0.628s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-26 13:07:46,2023-04-26 13:07:48,2.019s,PASSED
+"click(findTestObject(""Page_Create Standard Order Overview/div_Save""))",Chrome 112.0.0.0,,,2023-04-26 13:07:48,2023-04-26 13:07:48,0.541s,PASSED
+delay(5),Chrome 112.0.0.0,,,2023-04-26 13:07:48,2023-04-26 13:07:53,5.012s,PASSED
+"Sales_Order = getText(findTestObject(""Page_Create Standard Order Overview/span_SuccessMessage"")).substring(15, 21)",Chrome 112.0.0.0,,,2023-04-26 13:07:53,2023-04-26 13:07:54,0.637s,PASSED
+print(Sales_Order),Chrome 112.0.0.0,,,2023-04-26 13:07:54,2023-04-26 13:07:54,0.007s,PASSED
+"click(findTestObject(""Object Repository/Page_SAP/div_Exit""))",Chrome 112.0.0.0,,,2023-04-26 13:07:54,2023-04-26 13:07:54,0.582s,PASSED
+,,,,,,,
+Test Cases/SAP_SearchSalesOrder,Chrome 112.0.0.0,,,2023-04-26 13:07:54,2023-04-26 13:08:20,25.474s,FAILED
+"setText(findTestObject(""Object Repository/Page_Manage Sales Orders/input_Sales Order_cus.sd.salesorders.manage_6cf20f""), Sales_Order)",Chrome 112.0.0.0,,,2023-04-26 13:07:55,2023-04-26 13:08:02,7.124s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Sales Orders/div_Sales OrderContains 1 token183427Sold-t_9beef2""))",Chrome 112.0.0.0,,,2023-04-26 13:08:02,2023-04-26 13:08:04,1.963s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Sales Orders/bdi_Go""))",Chrome 112.0.0.0,,,2023-04-26 13:08:04,2023-04-26 13:08:04,0.737s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Manage Sales Orders/div_183427""), Sales_Order)",Chrome 112.0.0.0,,,2023-04-26 13:08:04,2023-04-26 13:08:06,1.574s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Sales Orders/a_183427""))",Chrome 112.0.0.0,,,2023-04-26 13:08:06,2023-04-26 13:08:08,1.679s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Sales Orders/td_USD_sapMListTblNavCol sapMTblLastVisibleCell_1""))",Chrome 112.0.0.0,,,2023-04-26 13:08:08,2023-04-26 13:08:09,1.549s,PASSED
+"click(findTestObject(""Object Repository/Page_Display Sales Order - VA03/div_Change""))",Chrome 112.0.0.0,,,2023-04-26 13:08:09,2023-04-26 13:08:11,1.710s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-26 13:08:11,2023-04-26 13:08:13,2.048s,PASSED
+"click(findTestObject(""Object Repository/Page_Change Standard Order 183427 Overview/span_Order_Quantity""))",Chrome 112.0.0.0,,,2023-04-26 13:08:13,2023-04-26 13:08:14,0.746s,PASSED
+"setText(findTestObject(""Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1""), Keys.chord(""5"", ENTER))",Chrome 112.0.0.0,,,2023-04-26 13:08:14,2023-04-26 13:08:14,0.602s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-26 13:08:14,2023-04-26 13:08:16,2.012s,PASSED
+"click(findTestObject(""Page_Create Standard Order Overview/div_Save""))",Chrome 112.0.0.0,,,2023-04-26 13:08:16,2023-04-26 13:08:17,0.492s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-26 13:08:17,2023-04-26 13:08:19,2.003s,PASSED
+"verifyElementText(findTestObject(""Page_SAP/span_Standard Order 183427 has been saved""), ""Standard Order 183427 has been saved."")",Chrome 112.0.0.0,,,2023-04-26 13:08:19,2023-04-26 13:08:20,1.054s,FAILED

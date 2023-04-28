@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Trial Center/b_Manage Sales Order",
+      "brokenLocator": "//span[@id\u003d\u0027__text75\u0027]/b",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Manage Sales Order\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230425_202016/SAP_TS/20230425_202016/Object Repository/Page_Trial Center/b_Manage Sales Order_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField",
+      "brokenLocator": "//*[contains(@id,\u0027left-Row-0\u0027)]/td[3]//input[@class\u003d\u0027lsField__input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230425_202016/SAP_TS/20230425_202016/Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_position.png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SAP_TS,Chrome 112.0.0.0,,,2023-04-26 14:24:54,2023-04-26 14:25:05,11.398s,FAILED
+,,,,,,,
+Test Cases/SAP_Login,Chrome 112.0.0.0,,,2023-04-26 14:24:54,2023-04-26 14:25:04,9.841s,FAILED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-26 14:24:55,2023-04-26 14:25:01,6.673s,PASSED
+"navigateToUrl(""https://cloudtrials.cfapps.eu10-004.hana.ondemand.com/public/access-trial/53cdcb45-79d8-4b1d-b610-da6f46c345bc?t=S4HANA_CLOUD"")",Chrome 112.0.0.0,,,2023-04-26 14:25:01,2023-04-26 14:25:04,2.457s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-26 14:25:04,2023-04-26 14:25:04,0.127s,FAILED
+,,,,,,,
+Test Cases/SAP_CreateSalesOrder,Chrome 112.0.0.0,,,2023-04-26 14:25:04,2023-04-26 14:25:04,0.402s,FAILED
+enableSmartWait(),Chrome 112.0.0.0,,,2023-04-26 14:25:04,2023-04-26 14:25:04,0.015s,PASSED
+"setText(findTestObject(""Object Repository/Page_Trial Center/input_All_search""), ""manage sales orders"")",Chrome 112.0.0.0,,,2023-04-26 14:25:04,2023-04-26 14:25:04,0.157s,FAILED
+,,,,,,,
+Test Cases/SAP_SearchSalesOrder,Chrome 112.0.0.0,,,2023-04-26 14:25:05,2023-04-26 14:25:05,0.450s,FAILED
+"setText(findTestObject(""Object Repository/Page_Manage Sales Orders/input_Sales Order_cus.sd.salesorders.manage_6cf20f""), Sales_Order)",Chrome 112.0.0.0,,,2023-04-26 14:25:05,2023-04-26 14:25:05,0.242s,FAILED

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sales Document Item</name>
+   <tag></tag>
+   <elementGuidId>5d89ecad-6196-40fe-ab9c-7e1095a7ca2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='M0:46:1::0:0-text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>aa52a3fe-05ee-4f5e-9007-b3af870d4063</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>M0:46:1::0:0-text</value>
+      <webElementGuid>eeacc5df-fe60-461c-94b2-f55c76a60438</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lsLabel__text lsLabel__text--overflow</value>
+      <webElementGuid>3350cfc4-c99b-43ed-a8e8-c6e50fe1395b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sales Document Item</value>
+      <webElementGuid>eb3a6ec0-354f-48cb-8164-707f69497ae8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;M0:46:1::0:0-text&quot;)</value>
+      <webElementGuid>41d9d46a-f54f-4e78-ac31-b4b98f942f01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Display Standard Order 183427 Item Data/iframe_concat(, , undefined, , )_applicatio_2e7af2</value>
+      <webElementGuid>a24f0869-ab86-4e58-81e8-139ff0981240</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='M0:46:1::0:0-text']</value>
+      <webElementGuid>78bbafa8-108a-439b-baf9-e6160ec79038</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='M0:46:1::0:0']/span</value>
+      <webElementGuid>a729e55a-36d7-45e0-87aa-06d77740793a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message Bar'])[1]/following::span[13]</value>
+      <webElementGuid>dbe5e5b2-1949-4087-bac4-a58ce5454716</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='C'])[2]/following::span[14]</value>
+      <webElementGuid>025460cc-e656-4003-b422-0674046002f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>3cafdc52-a255-4ed6-9b3d-042646c9d6e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'M0:46:1::0:0-text' and (text() = 'Sales Document Item' or . = 'Sales Document Item')]</value>
+      <webElementGuid>c96edc5c-f8f6-4cff-9ec2-3b7b6fdb6de5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

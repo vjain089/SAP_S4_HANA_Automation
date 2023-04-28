@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Trial Center/input_All_search",
+      "brokenLocator": "//input[@id\u003d\u0027searchFieldInShell-input-inner\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027searchFieldInShell-input-inner\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230426_134515/SAP_TS/20230426_134515/Object Repository/Page_Trial Center/input_All_search_attributes.png"
+    }
+  ]
+}

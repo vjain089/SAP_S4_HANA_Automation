@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Trial Center/b_Manage Sales Order",
+      "brokenLocator": "//span[@id\u003d\u0027__text75\u0027]/b",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Apps\u0027])[1]/following::b[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230425_122309/SAP_TS/20230425_122309/Object Repository/Page_Trial Center/b_Manage Sales Order_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Manage Sales Orders/span_Create",
+      "brokenLocator": "//span[@id\u003d\u0027application-SalesOrder-manage-component---id-1553605021678-103-internalBtn-inner\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id\u003d\u0027application-SalesOrder-manage-component---id-1553605021678-103-internalBtn-inner\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230425_122309/SAP_TS/20230425_122309/Object Repository/Page_Manage Sales Orders/span_Create_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Create Sales Documents/input_O_InputField",
+      "brokenLocator": "//input[@id\u003d\u0027M0:46:::2:22\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027M0:46:::2:22\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230425_122309/SAP_TS/20230425_122309/Object Repository/Page_Create Sales Documents/input_O_InputField_attributes.png"
+    }
+  ]
+}

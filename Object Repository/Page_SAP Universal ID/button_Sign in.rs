@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Sign in</name>
+   <tag></tag>
+   <elementGuidId>8187142a-5687-4a86-af5c-d594d34c2031</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.uid-login-as__submit-button.test-button.ds-button.ds-button--primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/div/div/div/div/div[2]/div[2]/div/div/div/div/form/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>62056196-ae06-4a2c-a905-e91e95325e32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>uid-login-as__submit-button test-button ds-button ds-button--primary</value>
+      <webElementGuid>80bc77f6-3a0e-4405-8968-d20f29316d71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in</value>
+      <webElementGuid>10010a1b-46e4-456d-a0e9-cbddee2a91b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/main[@class=&quot;h-100&quot;]/div[1]/div[@class=&quot;uid-newbox-withFooter&quot;]/div[@class=&quot;uid-newbox-wrapper&quot;]/div[@class=&quot;uid-newbox uid-newbox--small&quot;]/div[@class=&quot;uid-newbox__content&quot;]/div[@class=&quot;no-tracking uid-autologin__container&quot;]/div[@class=&quot;uid-login-as__box&quot;]/div[@class=&quot;uid-login-as&quot;]/div[@class=&quot;uid-login-as__content&quot;]/div[@class=&quot;uid-login-as__mainBox&quot;]/form[1]/div[@class=&quot;uid-login__input-size&quot;]/div[2]/button[@class=&quot;uid-login-as__submit-button test-button ds-button ds-button--primary&quot;]</value>
+      <webElementGuid>5d8c13c2-dae0-4343-896d-b7af1dde0354</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div/div/div/div/div[2]/div[2]/div/div/div/div/form/div/div[2]/button</value>
+      <webElementGuid>114e0b9c-48ba-4da5-8a06-d05690ea8257</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
+      <webElementGuid>e167349a-4d4b-4c7d-b29a-0557515cc2cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='com'])[1]/following::button[1]</value>
+      <webElementGuid>1f7630cf-f049-4954-8576-3e2fe4904c87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::button[1]</value>
+      <webElementGuid>74e20ffd-cf57-49d9-8e2f-b278418cf956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>688dc86a-0ad5-49ba-ae9a-41c92b374951</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Sign in' or . = 'Sign in')]</value>
+      <webElementGuid>39249a9f-ef1b-42b9-80c7-df96f5ca529b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

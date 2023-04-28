@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SAP_TS,Chrome 112.0.0.0,,,2023-04-26 16:12:07,2023-04-26 16:15:34,3m - 27.254s,FAILED
+,,,,,,,
+Test Cases/SAP_Login,Chrome 112.0.0.0,,,2023-04-26 16:12:07,2023-04-26 16:15:33,3m - 26.045s,FAILED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-26 16:12:08,2023-04-26 16:12:15,6.834s,PASSED
+"navigateToUrl(""https://cloudtrials.cfapps.eu10-004.hana.ondemand.com/public/access-trial/53cdcb45-79d8-4b1d-b610-da6f46c345bc?t=S4HANA_CLOUD"")",Chrome 112.0.0.0,,,2023-04-26 16:12:15,2023-04-26 16:12:19,4.005s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-26 16:12:19,2023-04-26 16:12:24,5.065s,PASSED
+"setText(findTestObject(""Object Repository/Page_SAP Trial Log On/input_E-Mail or User Name_j_username""), ""vaibhav.jain@katalon.com"")",Chrome 112.0.0.0,,,2023-04-26 16:12:24,2023-04-26 16:12:25,1.179s,PASSED
+"click(findTestObject(""Object Repository/Page_SAP Trial Log On/div_Continue""))",Chrome 112.0.0.0,,,2023-04-26 16:12:25,2023-04-26 16:12:32,7.258s,PASSED
+delay(40),Chrome 112.0.0.0,,,2023-04-26 16:12:32,2023-04-26 16:13:12,40.025s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_SAP Universal ID/input_com_password""), ""icP23tTPdjsOed6Z/XwIKg=="")",Chrome 112.0.0.0,,,2023-04-26 16:13:12,2023-04-26 16:13:13,0.862s,PASSED
+"click(findTestObject(""Object Repository/Page_SAP Universal ID/button_Sign in""))",Chrome 112.0.0.0,,,2023-04-26 16:13:13,2023-04-26 16:13:14,0.676s,PASSED
+delay(60),Chrome 112.0.0.0,,,2023-04-26 16:13:14,2023-04-26 16:14:14,1m - 0.015s,PASSED
+"click(findTestObject(""Page_Trial Center/span_UT""))",Chrome 112.0.0.0,,,2023-04-26 16:14:14,2023-04-26 16:15:33,1m - 19.764s,FAILED
+,,,,,,,
+Test Cases/SAP_CreateSalesOrder,Chrome 112.0.0.0,,,2023-04-26 16:15:33,2023-04-26 16:15:34,0.421s,FAILED
+enableSmartWait(),Chrome 112.0.0.0,,,2023-04-26 16:15:34,2023-04-26 16:15:34,0.015s,PASSED
+"setText(findTestObject(""Object Repository/Page_Trial Center/input_All_search""), ""manage sales orders"")",Chrome 112.0.0.0,,,2023-04-26 16:15:34,2023-04-26 16:15:34,0.104s,FAILED
+,,,,,,,
+Test Cases/SAP_Search_UpdateSalesOrder,Chrome 112.0.0.0,,,2023-04-26 16:15:34,2023-04-26 16:15:34,0.362s,FAILED
+"setText(findTestObject(""Object Repository/Page_Manage Sales Orders/input_Sales Order_cus.sd.salesorders.manage_6cf20f""), Sales_Order)",Chrome 112.0.0.0,,,2023-04-26 16:15:34,2023-04-26 16:15:34,0.174s,FAILED
