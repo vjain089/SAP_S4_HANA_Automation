@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SAP_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddd0c324-9d35-4393-bd8b-9fb45e02156e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03f81e76-e670-4be5-b096-6df744999b69</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03f81e76-e670-4be5-b096-6df744999b69</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

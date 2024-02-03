@@ -1,0 +1,44 @@
+1
+00:00:00,241 --> 00:00:02,886
+1. openBrowser("")
+
+2
+00:00:02,892 --> 00:00:11,227
+5. navigateToUrl("https://cloudtrials.cfapps.eu10-004.hana.ondemand.com/public/access-trial/87b8bf62-d009-4758-96ae-15bbf539d560?t=S4HANA_CLOUD")
+
+3
+00:00:11,227 --> 00:00:11,718
+9. maximizeWindow()
+
+4
+00:00:11,718 --> 00:00:12,372
+13. setText(findTestObject("Page_SAP Trial Sign In/input_Email or User Name_j_username"), "vjainkatalon@gmail.com")
+
+5
+00:00:12,373 --> 00:00:19,833
+17. click(findTestObject("Object Repository/Page_SAP Trial Log On/div_Continue"))
+
+6
+00:00:19,833 --> 00:00:29,853
+21. delay(10)
+
+7
+00:00:29,853 --> 00:00:30,166
+25. setEncryptedText(findTestObject("Object Repository/Page_SAP Universal ID/input_com_password"), "icP23tTPdjsOed6Z/XwIKg==")
+
+8
+00:00:30,166 --> 00:00:30,441
+29. click(findTestObject("Object Repository/Page_SAP Universal ID/button_Sign in"))
+
+9
+00:00:30,441 --> 00:00:35,445
+33. delay(5)
+
+10
+00:00:35,445 --> 00:00:35,447
+37. click(findTestObject("Page_Trial Center/span_UT"))
+
+11
+00:00:35,448 --> 00:00:39,430
+41. takeScreenshotAsCheckpoint("test")
+

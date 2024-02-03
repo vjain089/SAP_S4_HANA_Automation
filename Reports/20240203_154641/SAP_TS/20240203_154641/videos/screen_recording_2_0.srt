@@ -1,0 +1,96 @@
+1
+00:00:00,043 --> 00:00:00,051
+1. enableSmartWait()
+
+2
+00:00:00,051 --> 00:00:35,073
+5. click(findTestObject("Page_Manage Sales Orders/button_Leave Tour"), OPTIONAL)
+
+3
+00:00:35,074 --> 00:00:35,861
+9. click(findTestObject("Page_Home/span_Search"))
+
+4
+00:00:35,861 --> 00:00:38,781
+13. setText(findTestObject("Object Repository/Page_Trial Center/input_All_search"), "Manage Sales Order")
+
+5
+00:00:38,781 --> 00:00:39,861
+17. click(findTestObject("Object Repository/Page_Trial Center/b_Manage Sales Order"))
+
+6
+00:00:39,861 --> 00:00:42,467
+21. click(findTestObject("Object Repository/Page_Manage Sales Orders/span_Create"))
+
+7
+00:00:42,467 --> 00:00:43,274
+25. click(findTestObject("Object Repository/Page_Manage Sales Orders/div_Create Sales Order VA01"))
+
+8
+00:00:43,274 --> 00:00:50,494
+29. setText(findTestObject("Object Repository/Page_Create Sales Documents/input_O_InputField"), "OR")
+
+9
+00:00:50,494 --> 00:00:52,226
+33. click(findTestObject("Object Repository/Page_Create Sales Documents/div_ContinueEmphasized"))
+
+10
+00:00:52,226 --> 00:00:53,140
+37. setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_S_InputField"), "17100007")
+
+11
+00:00:53,140 --> 00:00:53,608
+41. setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_C_InputField"), "TEST")
+
+12
+00:00:53,609 --> 00:00:53,971
+45. click(findTestObject("Object Repository/Page_Create Standard Order Overview/div_Standard OrderNet ValueSold-to PartyShi_75e7b7"))
+
+13
+00:00:53,972 --> 00:00:54,337
+49. setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_P_InputField"), "0004")
+
+14
+00:00:54,338 --> 00:00:54,686
+53. setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_I_InputField"), "EXW")
+
+15
+00:00:54,687 --> 00:00:55,037
+57. sendKeys(findTestObject("Page_Create Standard Order Overview/input_I_InputField_1"), Keys.chord("Palo Alto", ENTER))
+
+16
+00:00:55,037 --> 00:00:56,628
+61. sendKeys(findTestObject("Page_Create Standard Order Overview/input_Overall Status_InputField"), Keys.chord("MZ-FG-26XR1", ENTER))
+
+17
+00:00:56,629 --> 00:00:57,616
+65. setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1"), Keys.chord("10", ENTER))
+
+18
+00:00:57,616 --> 00:00:59,621
+69. delay(2)
+
+19
+00:00:59,621 --> 00:00:59,945
+73. click(findTestObject("Page_Create Standard Order Overview/div_Save"))
+
+20
+00:00:59,946 --> 00:01:04,953
+77. delay(5)
+
+21
+00:01:04,953 --> 00:01:05,233
+81. if (verifyElementPresent(findTestObject("Page_Create Standard Order Overview/span_SuccessMessage"), 0) == true)
+
+22
+00:01:05,233 --> 00:01:05,548
+1. Sales_Order = getText(findTestObject("Page_Create Standard Order Overview/span_SuccessMessage")).substring(15, 21)
+
+23
+00:01:05,548 --> 00:01:05,550
+5. print(Sales_Order)
+
+24
+00:01:05,550 --> 00:01:05,878
+85. click(findTestObject("Object Repository/Page_SAP/div_Exit"))
+

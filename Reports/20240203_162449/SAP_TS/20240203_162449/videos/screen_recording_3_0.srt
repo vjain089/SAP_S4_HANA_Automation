@@ -1,0 +1,80 @@
+1
+00:00:00,027 --> 00:00:07,013
+1. setText(findTestObject("Object Repository/Page_Manage Sales Orders/input_Sales Order_cus.sd.salesorders.manage_6cf20f"), Sales_Order)
+
+2
+00:00:07,013 --> 00:00:07,521
+5. click(findTestObject("Object Repository/Page_Manage Sales Orders/div_Sales OrderContains 1 token183427Sold-t_9beef2"))
+
+3
+00:00:07,522 --> 00:00:08,140
+9. click(findTestObject("Object Repository/Page_Manage Sales Orders/bdi_Go"))
+
+4
+00:00:08,141 --> 00:00:08,927
+13. verifyElementText(findTestObject("Object Repository/Page_Manage Sales Orders/div_183427"), Sales_Order)
+
+5
+00:00:08,927 --> 00:00:09,206
+17. click(findTestObject("Object Repository/Page_Manage Sales Orders/a_183427"))
+
+6
+00:00:09,207 --> 00:00:10,358
+21. click(findTestObject("Object Repository/Page_Manage Sales Orders/td_USD_sapMListTblNavCol sapMTblLastVisibleCell_1"))
+
+7
+00:00:10,359 --> 00:00:11,341
+25. click(findTestObject("Object Repository/Page_Display Sales Order - VA03/div_Change"))
+
+8
+00:00:11,341 --> 00:00:13,348
+29. delay(2)
+
+9
+00:00:13,348 --> 00:00:13,682
+33. click(findTestObject("Object Repository/Page_Change Standard Order 183427 Overview/span_Order_Quantity"))
+
+10
+00:00:13,683 --> 00:00:14,040
+37. setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1"), Keys.chord("5", ENTER))
+
+11
+00:00:14,040 --> 00:00:16,045
+41. delay(2)
+
+12
+00:00:16,045 --> 00:00:16,369
+45. click(findTestObject("Page_Create Standard Order Overview/div_Save"))
+
+13
+00:00:16,369 --> 00:00:18,375
+49. delay(2)
+
+14
+00:00:18,376 --> 00:00:18,656
+53. verifyElementText(findTestObject("Page_SAP/span_Standard Order 183427 has been saved"), "Standard Order " + Sales_Order + " has been saved.")
+
+15
+00:00:18,656 --> 00:00:18,977
+57. click(findTestObject("Object Repository/Page_SAP/div_ExitHelp"))
+
+16
+00:00:18,977 --> 00:00:21,046
+61. click(findTestObject("Page_Home/span_UT"))
+
+17
+00:00:21,046 --> 00:00:21,826
+65. click(findTestObject("Object Repository/Page_Trial Center/div_Sign Out"))
+
+18
+00:00:21,827 --> 00:00:24,614
+69. click(findTestObject("Object Repository/Page_Trial Center/bdi_OK"))
+
+19
+00:00:24,614 --> 00:00:29,622
+73. delay(5)
+
+20
+00:00:29,622 --> 00:00:35,246
+77. closeBrowser()
+

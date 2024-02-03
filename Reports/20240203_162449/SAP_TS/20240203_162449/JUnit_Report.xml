@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SAP_TS" time="158.436" tests="3" failures="0" errors="0">
+   <testsuite name="SAP_TS" tests="3" failures="0" errors="0" time="158.436" skipped="0" timestamp="03-02-2024T16:24:55" hostname="vaibhavjain - 192.168.225.40" id="Test Suites/SAP_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vaibhavjain/Katalon Studio/SAP_S4HANA_TC1/Reports/20240203_162449/SAP_TS/20240203_162449"/>
+         <property name="logFiles" value="/Users/vaibhavjain/Katalon Studio/SAP_S4HANA_TC1/Reports/20240203_162449/SAP_TS/20240203_162449/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-test.png"/>
+         <property name="hostName" value="vaibhavjain - 192.168.225.40"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.225.40"/>
+         <property name="sessionId" value="f2b98a3329f99138681630fe0ee6f27f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SAP_Login" time="59.367" classname="Test Cases/SAP_Login" status="PASSED">
+         <system-out><![CDATA[03-02-2024T16:24:55 - [TEST_CASE][PASSED] - Test Cases/SAP_Login: Test Cases/SAP_Login
+
+03-02-2024T16:24:55 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+03-02-2024T16:24:55 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+03-02-2024T16:24:55 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+03-02-2024T16:24:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-02-2024T16:24:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-02-2024T16:24:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-02-2024T16:24:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-02-2024T16:24:57 - [TEST_STEP][PASSED] - navigateToUrl("https://cloudtrials.cfapps.eu10-004.hana.ondemand.com/public/access-trial/87b8bf62-d009-4758-96ae-15bbf539d560?t=S4HANA_CLOUD"): Navigate to 'https://cloudtrials.cfapps.eu10-004.hana.ondemand.com/public/access-trial/87b8bf62-d009-4758-96ae-15bbf539d560?t=S4HANA_CLOUD' successfully
+
+03-02-2024T16:25:06 - [MESSAGE][PASSED] - Navigate to 'https://cloudtrials.cfapps.eu10-004.hana.ondemand.com/public/access-trial/87b8bf62-d009-4758-96ae-15bbf539d560?t=S4HANA_CLOUD' successfully
+
+03-02-2024T16:25:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-02-2024T16:25:10 - [MESSAGE][PASSED] - Current window maximized
+
+03-02-2024T16:25:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_SAP Trial Sign In/input_Email or User Name_j_username"), "vjainkatalon@gmail.com"): Text 'vjainkatalon@gmail.com' is set on object 'Object Repository/Page_SAP Trial Sign In/input_Email or User Name_j_username'
+
+03-02-2024T16:25:10 - [MESSAGE][PASSED] - Text 'vjainkatalon@gmail.com' is set on object 'Object Repository/Page_SAP Trial Sign In/input_Email or User Name_j_username'
+
+03-02-2024T16:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SAP Trial Log On/div_Continue")): Object: 'Object Repository/Page_SAP Trial Log On/div_Continue' is clicked on
+
+03-02-2024T16:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SAP Trial Log On/div_Continue' is clicked on
+
+03-02-2024T16:25:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+03-02-2024T16:25:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+03-02-2024T16:25:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_SAP Universal ID/input_com_password"), "icP23tTPdjsOed6Z/XwIKg=="): Text ****** has been set on object 'Object Repository/Page_SAP Universal ID/input_com_password'
+
+03-02-2024T16:25:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_SAP Universal ID/input_com_password'
+
+03-02-2024T16:25:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SAP Universal ID/button_Sign in")): Object: 'Object Repository/Page_SAP Universal ID/button_Sign in' is clicked on
+
+03-02-2024T16:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SAP Universal ID/button_Sign in' is clicked on
+
+03-02-2024T16:25:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+03-02-2024T16:25:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+03-02-2024T16:25:39 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Trial Center/span_UT")): NOT_RUN: click(findTestObject("Page_Trial Center/span_UT"))
+
+03-02-2024T16:25:39 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Trial Center/span_UT"))
+
+03-02-2024T16:25:39 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("test"): Taking screenshot successfully
+
+03-02-2024T16:25:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-02-2024T16:25:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-test.png]]
+
+03-02-2024T16:25:52 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+03-02-2024T16:25:52 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+03-02-2024T16:25:54 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/SAP_Login' .
+
+03-02-2024T16:25:54 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/SAP_Login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SAP_CreateSalesOrder" time="61.656" classname="Test Cases/SAP_CreateSalesOrder" status="PASSED">
+         <system-out><![CDATA[03-02-2024T16:25:54 - [TEST_CASE][PASSED] - Test Cases/SAP_CreateSalesOrder: Test Cases/SAP_CreateSalesOrder
+
+03-02-2024T16:25:54 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+03-02-2024T16:25:54 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+03-02-2024T16:25:54 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+03-02-2024T16:25:54 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+03-02-2024T16:25:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Manage Sales Orders/button_Leave Tour"), OPTIONAL): Object: 'Object Repository/Page_Manage Sales Orders/button_Leave Tour' is clicked on
+
+03-02-2024T16:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Sales Orders/button_Leave Tour' is clicked on
+
+03-02-2024T16:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/span_Search")): Object: 'Object Repository/Page_Home/span_Search' is clicked on
+
+03-02-2024T16:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/span_Search' is clicked on
+
+03-02-2024T16:26:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Trial Center/input_All_search"), "Manage Sales Order"): Text 'Manage Sales Order' is set on object 'Object Repository/Page_Trial Center/input_All_search'
+
+03-02-2024T16:26:25 - [MESSAGE][PASSED] - Text 'Manage Sales Order' is set on object 'Object Repository/Page_Trial Center/input_All_search'
+
+03-02-2024T16:26:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Trial Center/b_Manage Sales Order")): Object: 'Object Repository/Page_Trial Center/b_Manage Sales Order' is clicked on
+
+03-02-2024T16:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Trial Center/b_Manage Sales Order' is clicked on
+
+03-02-2024T16:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Sales Orders/span_Create")): Object: 'Object Repository/Page_Manage Sales Orders/span_Create' is clicked on
+
+03-02-2024T16:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Sales Orders/span_Create' is clicked on
+
+03-02-2024T16:26:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Sales Orders/div_Create Sales Order VA01")): Object: 'Object Repository/Page_Manage Sales Orders/div_Create Sales Order VA01' is clicked on
+
+03-02-2024T16:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Sales Orders/div_Create Sales Order VA01' is clicked on
+
+03-02-2024T16:26:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Sales Documents/input_O_InputField"), "OR"): Text 'OR' is set on object 'Object Repository/Page_Create Sales Documents/input_O_InputField'
+
+03-02-2024T16:26:38 - [MESSAGE][PASSED] - Text 'OR' is set on object 'Object Repository/Page_Create Sales Documents/input_O_InputField'
+
+03-02-2024T16:26:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Sales Documents/div_ContinueEmphasized")): Object: 'Object Repository/Page_Create Sales Documents/div_ContinueEmphasized' is clicked on
+
+03-02-2024T16:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Sales Documents/div_ContinueEmphasized' is clicked on
+
+03-02-2024T16:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_S_InputField"), "17100007"): Text '17100007' is set on object 'Object Repository/Page_Create Standard Order Overview/input_S_InputField'
+
+03-02-2024T16:26:41 - [MESSAGE][PASSED] - Text '17100007' is set on object 'Object Repository/Page_Create Standard Order Overview/input_S_InputField'
+
+03-02-2024T16:26:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_C_InputField"), "TEST"): Text 'TEST' is set on object 'Object Repository/Page_Create Standard Order Overview/input_C_InputField'
+
+03-02-2024T16:26:41 - [MESSAGE][PASSED] - Text 'TEST' is set on object 'Object Repository/Page_Create Standard Order Overview/input_C_InputField'
+
+03-02-2024T16:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Standard Order Overview/div_Standard OrderNet ValueSold-to PartyShi_75e7b7")): Object: 'Object Repository/Page_Create Standard Order Overview/div_Standard OrderNet ValueSold-to PartyShi_75e7b7' is clicked on
+
+03-02-2024T16:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Standard Order Overview/div_Standard OrderNet ValueSold-to PartyShi_75e7b7' is clicked on
+
+03-02-2024T16:26:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_P_InputField"), "0004"): Text '0004' is set on object 'Object Repository/Page_Create Standard Order Overview/input_P_InputField'
+
+03-02-2024T16:26:42 - [MESSAGE][PASSED] - Text '0004' is set on object 'Object Repository/Page_Create Standard Order Overview/input_P_InputField'
+
+03-02-2024T16:26:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_I_InputField"), "EXW"): Text 'EXW' is set on object 'Object Repository/Page_Create Standard Order Overview/input_I_InputField'
+
+03-02-2024T16:26:42 - [MESSAGE][PASSED] - Text 'EXW' is set on object 'Object Repository/Page_Create Standard Order Overview/input_I_InputField'
+
+03-02-2024T16:26:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Create Standard Order Overview/input_I_InputField_1"), Keys.chord("Palo Alto", ENTER)): Keys 'ENTER + Palo Alto' sent to object: 'Object Repository/Page_Create Standard Order Overview/input_I_InputField_1'
+
+03-02-2024T16:26:43 - [MESSAGE][PASSED] - Keys 'ENTER + Palo Alto' sent to object: 'Object Repository/Page_Create Standard Order Overview/input_I_InputField_1'
+
+03-02-2024T16:26:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Create Standard Order Overview/input_Overall Status_InputField"), Keys.chord("MZ-FG-26XR1", ENTER)): Keys 'ENTER + MZ-FG-26XR1' sent to object: 'Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField'
+
+03-02-2024T16:26:44 - [MESSAGE][PASSED] - Keys 'ENTER + MZ-FG-26XR1' sent to object: 'Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField'
+
+03-02-2024T16:26:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1"), Keys.chord("10", ENTER)): Text 'ENTER + 10' is set on object 'Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1'
+
+03-02-2024T16:26:45 - [MESSAGE][PASSED] - Text 'ENTER + 10' is set on object 'Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1'
+
+03-02-2024T16:26:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-02-2024T16:26:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-02-2024T16:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Standard Order Overview/div_Save")): Object: 'Object Repository/Page_Create Standard Order Overview/div_Save' is clicked on
+
+03-02-2024T16:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Standard Order Overview/div_Save' is clicked on
+
+03-02-2024T16:26:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-02-2024T16:26:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-02-2024T16:26:52 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_Create Standard Order Overview/span_SuccessMessage"), 0) == true): null
+
+03-02-2024T16:26:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-02-2024T16:26:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-02-2024T16:26:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Create Standard Order Overview/span_SuccessMessage' is present
+
+03-02-2024T16:26:53 - [TEST_STEP][PASSED] - Sales_Order = getText(findTestObject("Page_Create Standard Order Overview/span_SuccessMessage")).substring(15, 21): Text of object 'Object Repository/Page_Create Standard Order Overview/span_SuccessMessage' is: 'Standard Order 217751 has been saved.'
+
+03-02-2024T16:26:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Create Standard Order Overview/span_SuccessMessage' is: 'Standard Order 217751 has been saved.'
+
+03-02-2024T16:26:53 - [TEST_STEP][PASSED] - print(Sales_Order): null
+
+03-02-2024T16:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SAP/div_Exit")): Object: 'Object Repository/Page_SAP/div_Exit' is clicked on
+
+03-02-2024T16:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SAP/div_Exit' is clicked on
+
+03-02-2024T16:26:54 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+03-02-2024T16:26:54 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+03-02-2024T16:26:56 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/SAP_CreateSalesOrder' .
+
+03-02-2024T16:26:56 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/SAP_CreateSalesOrder' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SAP_Search_UpdateSalesOrder" time="37.308" classname="Test Cases/SAP_Search_UpdateSalesOrder" status="PASSED">
+         <system-out><![CDATA[03-02-2024T16:26:56 - [TEST_CASE][PASSED] - Test Cases/SAP_Search_UpdateSalesOrder: Test Cases/SAP_Search_UpdateSalesOrder
+
+03-02-2024T16:26:56 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+03-02-2024T16:26:56 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+03-02-2024T16:26:56 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+03-02-2024T16:26:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Manage Sales Orders/input_Sales Order_cus.sd.salesorders.manage_6cf20f"), Sales_Order): Text '217751' is set on object 'Object Repository/Page_Manage Sales Orders/input_Sales Order_cus.sd.salesorders.manage_6cf20f'
+
+03-02-2024T16:27:03 - [MESSAGE][PASSED] - Text '217751' is set on object 'Object Repository/Page_Manage Sales Orders/input_Sales Order_cus.sd.salesorders.manage_6cf20f'
+
+03-02-2024T16:27:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Sales Orders/div_Sales OrderContains 1 token183427Sold-t_9beef2")): Object: 'Object Repository/Page_Manage Sales Orders/div_Sales OrderContains 1 token183427Sold-t_9beef2' is clicked on
+
+03-02-2024T16:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Sales Orders/div_Sales OrderContains 1 token183427Sold-t_9beef2' is clicked on
+
+03-02-2024T16:27:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Sales Orders/bdi_Go")): Object: 'Object Repository/Page_Manage Sales Orders/bdi_Go' is clicked on
+
+03-02-2024T16:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Sales Orders/bdi_Go' is clicked on
+
+03-02-2024T16:27:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Manage Sales Orders/div_183427"), Sales_Order): Actual text and expected text of test object 'Object Repository/Page_Manage Sales Orders/div_183427' are matched.
+
+03-02-2024T16:27:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Manage Sales Orders/div_183427' are matched.
+
+03-02-2024T16:27:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Sales Orders/a_183427")): Object: 'Object Repository/Page_Manage Sales Orders/a_183427' is clicked on
+
+03-02-2024T16:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Sales Orders/a_183427' is clicked on
+
+03-02-2024T16:27:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Sales Orders/td_USD_sapMListTblNavCol sapMTblLastVisibleCell_1")): Object: 'Object Repository/Page_Manage Sales Orders/td_USD_sapMListTblNavCol sapMTblLastVisibleCell_1' is clicked on
+
+03-02-2024T16:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Sales Orders/td_USD_sapMListTblNavCol sapMTblLastVisibleCell_1' is clicked on
+
+03-02-2024T16:27:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Display Sales Order - VA03/div_Change")): Object: 'Object Repository/Page_Display Sales Order - VA03/div_Change' is clicked on
+
+03-02-2024T16:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Display Sales Order - VA03/div_Change' is clicked on
+
+03-02-2024T16:27:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-02-2024T16:27:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-02-2024T16:27:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Standard Order 183427 Overview/span_Order_Quantity")): Object: 'Object Repository/Page_Change Standard Order 183427 Overview/span_Order_Quantity' is clicked on
+
+03-02-2024T16:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Standard Order 183427 Overview/span_Order_Quantity' is clicked on
+
+03-02-2024T16:27:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1"), Keys.chord("5", ENTER)): Text 'ENTER + 5' is set on object 'Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1'
+
+03-02-2024T16:27:10 - [MESSAGE][PASSED] - Text 'ENTER + 5' is set on object 'Object Repository/Page_Create Standard Order Overview/input_Overall Status_InputField_1'
+
+03-02-2024T16:27:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-02-2024T16:27:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-02-2024T16:27:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Create Standard Order Overview/div_Save")): Object: 'Object Repository/Page_Create Standard Order Overview/div_Save' is clicked on
+
+03-02-2024T16:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Standard Order Overview/div_Save' is clicked on
+
+03-02-2024T16:27:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-02-2024T16:27:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-02-2024T16:27:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_SAP/span_Standard Order 183427 has been saved"), "Standard Order " + Sales_Order + " has been saved."): Actual text and expected text of test object 'Object Repository/Page_SAP/span_Standard Order 183427 has been saved' are matched.
+
+03-02-2024T16:27:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_SAP/span_Standard Order 183427 has been saved' are matched.
+
+03-02-2024T16:27:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SAP/div_ExitHelp")): Object: 'Object Repository/Page_SAP/div_ExitHelp' is clicked on
+
+03-02-2024T16:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SAP/div_ExitHelp' is clicked on
+
+03-02-2024T16:27:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/span_UT")): Object: 'Object Repository/Page_Home/span_UT' is clicked on
+
+03-02-2024T16:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/span_UT' is clicked on
+
+03-02-2024T16:27:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Trial Center/div_Sign Out")): Object: 'Object Repository/Page_Trial Center/div_Sign Out' is clicked on
+
+03-02-2024T16:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Trial Center/div_Sign Out' is clicked on
+
+03-02-2024T16:27:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Trial Center/bdi_OK")): Object: 'Object Repository/Page_Trial Center/bdi_OK' is clicked on
+
+03-02-2024T16:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Trial Center/bdi_OK' is clicked on
+
+03-02-2024T16:27:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+03-02-2024T16:27:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+03-02-2024T16:27:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-02-2024T16:27:31 - [MESSAGE][PASSED] - Browser is closed
+
+03-02-2024T16:27:31 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+03-02-2024T16:27:31 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+03-02-2024T16:27:33 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/SAP_Search_UpdateSalesOrder' .
+
+03-02-2024T16:27:33 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/SAP_Search_UpdateSalesOrder' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-02-2024T16:24:55 - [TEST_SUITE][PASSED] - SAP_TS: Test Cases/SAP_Search_UpdateSalesOrder]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

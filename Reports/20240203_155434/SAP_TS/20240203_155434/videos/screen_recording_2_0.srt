@@ -1,0 +1,20 @@
+1
+00:00:00,041 --> 00:00:00,047
+1. enableSmartWait()
+
+2
+00:00:00,048 --> 00:00:35,393
+5. click(findTestObject("Page_Manage Sales Orders/button_Leave Tour"), OPTIONAL)
+
+3
+00:00:35,394 --> 00:00:35,674
+9. click(findTestObject("Page_Home/span_Search"))
+
+4
+00:00:35,674 --> 00:00:42,901
+13. setText(findTestObject("Object Repository/Page_Trial Center/input_All_search"), "Manage Sales Order")
+
+5
+00:00:42,902 --> 00:00:43,885
+17. click(findTestObject("Object Repository/Page_Trial Center/b_Manage Sales Order"))
+

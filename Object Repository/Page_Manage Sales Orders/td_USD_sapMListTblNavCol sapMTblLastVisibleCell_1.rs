@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_USD_sapMListTblNavCol sapMTblLastVisibleCell_1</name>
+   <tag></tag>
+   <elementGuidId>94671800-2e39-4fc3-ad20-13533e2f0b24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.sapMListTblNavCol.sapMTblLastVisibleCell</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[1]/following::td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>c20727fb-f38f-4011-8101-781000455bed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>42c8b2b1-ba0d-494c-83d4-20e97c391f70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>75dde449-07fc-4b28-8f99-1e4bfdc6e123</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMListTblNavCol sapMTblLastVisibleCell</value>
+      <webElementGuid>f71f80ee-3897-4e14-8373-5a16fe47ce7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cus.sd.salesorders.manage::sap.suite.ui.generic.template.ListReport.view.ListReport::C_SalesOrderWl_F1873--template:::ListReportTable:::ColumnListItem-__clone207&quot;)/td[@class=&quot;sapMListTblNavCol sapMTblLastVisibleCell&quot;]</value>
+      <webElementGuid>b1b77e90-f235-4ab2-a0ca-cbe362d47bf1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='cus.sd.salesorders.manage::sap.suite.ui.generic.template.ListReport.view.ListReport::C_SalesOrderWl_F1873--template:::ListReportTable:::ColumnListItem-__clone207']/td[10]</value>
+      <webElementGuid>5f02b92b-88d0-484f-be4e-97b333f26ab4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD'])[1]/following::td[2]</value>
+      <webElementGuid>5e9ab066-8876-4a48-bf0f-942b2750616d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open'])[1]/following::td[3]</value>
+      <webElementGuid>059c1903-cf12-4753-95ff-98c740395ed1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/preceding::td[3]</value>
+      <webElementGuid>5492e9ff-59c9-48aa-bf20-198f49cb31f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Topics'])[1]/preceding::td[3]</value>
+      <webElementGuid>34f0fb8e-d96d-4c45-859f-505a0703eecf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[10]</value>
+      <webElementGuid>05c22390-52cc-446a-a386-1bb646323997</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

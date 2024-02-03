@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Manage Sales Orders/button_Leave Tour",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Welcome to SAP S/4HANA Cloud Public Edition!\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240203_154641/SAP_TS/20240203_154641/Object Repository/Page_Manage Sales Orders/button_Leave Tour_neighbor.png"
+    }
+  ]
+}
